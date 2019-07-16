@@ -1,0 +1,65 @@
+#!/bin/sh
+
+initializeANSI(){
+  esc=""
+  reset="${esc}[0m"
+
+  border="${reset}${esc}[38;5;232m"
+
+  red="${esc}[38;5;160m";    redd="${esc}[38;5;124m"
+  greyd="${reset}${esc}[38;5;235m"; grey="${reset}${esc}[38;5;250m"
+  whited="${reset}${esc}[38;5;251m"; white="${reset}${esc}[38;5;255m"
+  yellowd="${reset}${esc}[38;5;208m"; yellow="${reset}${esc}[38;5;214m"; yellowb="${reset}${esc}[38;5;220m"
+  haird="${reset}${esc}[38;5;172m"; hair="${reset}${esc}[38;5;214m"; hairb="${reset}${esc}[38;5;226m"; hairw="${reset}${esc}[38;5;228m"
+  clothd="${reset}${esc}[38;5;55m"; cloth="${reset}${esc}[38;5;57m"
+  snaked="${reset}${esc}[38;5;29m"; snake="${reset}${esc}[38;5;35m"
+  blued="${reset}${esc}[38;5;26m"; blue="${reset}${esc}[38;5;33m"; bluew="${reset}${esc}[38;5;69m"
+  brownd="${esc}[38;5;94m"; brown="${esc}[38;5;100m"; brownb="${esc}[38;5;136m";
+  
+
+
+  humand="${esc}[38;5;216m"; human="${esc}[38;5;223m"; humanb="${esc}[38;5;229m"
+  eyed="${reset}${esc}[38;5;235m"; eye="${reset}${esc}[38;5;240m"; eyeb="${reset}${esc}[38;5;247m"; eyew="${reset}${esc}[38;5;255m"
+  boldon="${esc}[1m";    boldoff="${esc}[22m"
+  italicson="${esc}[3m"; italicsoff="${esc}[23m"
+  ulon="${esc}[4m";      uloff="${esc}[24m"
+  invon="${esc}[7m";     invoff="${esc}[27m"
+ 
+}
+
+initializeANSI
+
+cat << EOF
+                  ${border}████${reset}              ${border}████${reset}
+                ${border}██${grey}██${greyd}██${border}██████████████${white}████${border}████${reset}
+              ${border}██${grey}██${border}██${white}██${border}██${brown}██${brownb}██████${border}██${white}██${border}████${white}██${border}████${reset}
+              ${border}██${grey}██${border}██${white}██${border}██${brownb}████████${border}██${white}██${border}████${grey}██${border}██${brown}██${border}██${reset}
+              ${border}██${greyd}██${white}██${border}██${brownb}████████████${border}██${white}██${grey}██${border}██${brownb}██${brown}████${border}██${reset}
+            ${border}██${brown}██${border}████${brownb}████████████████${border}████${brownb}████${brown}████${border}██${reset}
+            ${border}██${brownb}████████████████████████${brown}██████████${border}██${reset}
+          ${border}██${brownb}████${brown}██${brownd}████████████${brown}██${brownb}████████████${brown}██████${border}██${reset}
+        ${border}██${brown}██${brownd}██████${hair}██${hairb}████${hair}██████${brownd}██████${brown}████${brownb}████████${brown}██${border}██${reset}
+    ${border}████${brown}██${brownd}██${hair}████${hairb}██████████████████${hair}██${brownd}██████${brown}████${brownb}██████${border}██${reset}
+  ${border}██${brownb}██${brown}██${brownd}██${hair}██${hairw}██${hairb}██${hairw}████${hair}██${hairb}████████████████${hair}██${haird}██${brownd}████${brown}████${brownb}████${border}██${reset}
+  ${border}██${brown}██${brownd}██${hair}██${hairb}████${hair}██${hairb}████${hair}████${hairw}██████${hair}██${hairb}██${hairw}████${hairb}██${hair}████${haird}██${brownd}████${brown}████${brownb}██${border}██${reset}
+    ${border}████${haird}██${hair}██${hairb}██${hair}██${haird}██${hairb}██${hair}██${haird}██${hair}██${hairb}████${hair}████${hairb}████████${hair}████${haird}████${brownd}████${brown}████${border}██${reset}
+        ${border}██${haird}██${hair}██${hairb}██${haird}██${border}████${humand}██${haird}██${hair}██${hairb}██${hair}██${haird}██${hair}██${hairb}██████${hair}██████${haird}██${border}██${brownd}██${border}████${reset}
+          ${border}██${haird}██${red}██${redd}██${eyeb}██${border}██${humand}████${haird}██${hair}██${border}████████${hair}██${hairb}████${hair}██████${border}████${reset}
+            ${border}██${hair}██${haird}██${eyeb}██${eyed}██${humanb}████${humand}██${haird}██${humand}██${border}████${eyeb}██${border}██${hair}██${hairb}██${haird}██${hair}████${border}██${reset}
+            ${border}██${haird}████${eyew}██${eye}██${humanb}██████${humand}██${humanb}██${eyed}██${eyew}████${redd}████${red}██${haird}████${hair}██${haird}██${border}██${reset}
+            ${border}██${hair}██${haird}██${humanb}██${eyed}██${humanb}██████████${eye}██${eyed}██${eyew}██${haird}██${red}██${hairb}██${haird}████${hair}████${border}██${reset}
+            ${border}██${hair}██${haird}██${human}██${humanb}████████████${eyed}████${humanb}██${haird}██${hairb}██${hair}██${haird}██████${hair}██${haird}██${border}██${reset}
+          ${border}██${hair}██${haird}██████${human}██${humanb}██████████████${human}██${haird}██${hairb}██${haird}██████${border}██${haird}████${border}██${reset}
+            ${border}██████${haird}████${human}██████████████${haird}██${hair}████${border}██${haird}██${border}████${haird}██${border}██${reset}
+                  ${border}██${clothd}██${grey}██${white}████${grey}██${cloth}██${clothd}████${grey}██${border}██${haird}██${border}████${reset}    ${border}██${reset}
+                ${border}██${grey}██${border}██${snaked}██${snake}██${cloth}██████${red}██${grey}██${white}██${grey}██${border}████${reset}
+                ${border}██${grey}██${border}██${clothd}██${cloth}██${clothd}████████${border}██${white}████${grey}██${border}██${reset}
+              ${border}██${grey}██${border}██${clothd}██${cloth}████████${clothd}██${redd}██${border}██${white}████${grey}██${border}██${reset}
+                ${border}██${clothd}██${snaked}██${snake}██${cloth}██████${snaked}██${clothd}██${border}██${white}████${grey}██${border}██${reset}
+                ${border}██${snaked}██${snake}██${cloth}██████${snake}████${snaked}██${clothd}██${grey}████${border}██${reset}
+                  ${border}██${snaked}██${cloth}████████${snake}████${clothd}████${border}██${reset}
+                    ${border}██${grey}██${border}████████${white}██${grey}██${border}██${reset}
+                    ${border}██${greyd}██${border}██${reset}      ${border}██${white}██${grey}██${border}██${reset}
+                    ${border}████${reset}          ${border}██${greyd}██${border}██${reset}
+                                    ${border}██${reset}    
+EOF
