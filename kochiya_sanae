@@ -31,34 +31,34 @@ initializeANSI(){
 initializeANSI
 
 cat << EOF
-                    ${border}████████████████████${reset}
-                ${border}████${hair}████${hairb}██████████${hair}██████${border}████${reset}
-              ${border}██${hair}██${hairb}██████████████████████${hair}████${border}██${reset}
-            ${border}██${hair}██${hairb}████████████████████${haird}██${hairb}██${haird}██${hair}████${border}██${reset}
-          ${border}██${hair}██${hairb}████████████████████${haird}██${redd}██${haird}██${redd}██${haird}██${hair}████${border}██${reset}
-        ${border}██${hair}██${hairb}██████████████████████${haird}██${hair}██████${haird}██${hair}████${border}██${reset}
-        ${border}██${hair}██${hairw}██${hairb}████████████████████${grey}██${white}██████${grey}██${hair}████${haird}██${border}██${reset}
-      ${border}██${hair}██${hairb}████${hairw}██████${hairb}████████████████${grey}██████${hairb}████${hair}██${haird}██${border}██${reset}
-      ${border}██${hairb}████████████${hair}██${hairw}████████${hairb}██${hairw}████████${hairb}██████${hair}██${haird}██${border}██${reset}
-      ${border}██${hairb}████${hair}██${hairb}██████${haird}██${hairb}████████${hair}██${hairb}██████${hair}██${hairb}██████${hair}████${border}██${reset}
-      ${border}██${hairb}██${hair}██${haird}██${hairb}██${hair}██${hairb}██${haird}██${hair}██${hairb}██████${haird}██${hairb}████████${hair}██${hairb}████${hair}████${border}██${reset}
-      ${border}██${hair}██${haird}████${hairb}██${hair}██${border}████${haird}██${hair}██${hairb}██${hair}██${haird}████${hairb}██████${hair}██${hairb}████${hair}████${border}██${reset}
-        ${haird}██${border}██${haird}██${hairb}██${haird}██${grey}██${border}██${humand}██${haird}██${hair}██${haird}██${border}████████${hairb}████${hair}██${hairb}██${hair}████${border}██${reset}
-        ${border}██${reset}  ${border}██${hair}██${haird}██${grey}██${eyed}██${humanb}████${haird}██${humand}████${border}████${grey}██${border}██${hairb}██${hair}████${haird}██${hair}██${border}██${reset}
-            ${border}██${hair}██${haird}██${white}██${eye}██${humanb}██████${humand}██${humanb}██${eyed}██${white}████${band}██${bandd}██${haird}██${hair}██${haird}██${hair}██${border}██${reset}
-            ${border}██${hair}██${haird}██${humanb}██${eyed}██${humanb}██████████${eye}██${eyed}██${white}██${band}██${bandd}██${border}██${haird}████${hair}██${border}██${reset}
-            ${border}██${hair}██${haird}██${human}██${humanb}████████████${eyed}████${humanb}██${band}██${bandd}██${border}██${haird}██████${border}██${reset}
-              ${border}██${hair}██${haird}██${humanb}████████████████${human}██${grey}██${white}██${border}██${haird}██████${border}██${reset}
-              ${border}██${hair}██${haird}██${border}██${human}██████████████${hair}██${hairb}██${hair}██${border}██${haird}████${border}██${reset}
-              ${border}██${haird}████${human}██${grey}██${skirt}██${white}██${grey}████${greyd}██${humand}██${haird}██${hairb}██${haird}██${border}██${haird}████${border}██${reset}
-              ${border}██${haird}██${grey}██${border}██${white}██${skirt}██${white}██████${grey}██${greyd}██${haird}██${hair}██${border}████${haird}██${border}██${reset}
-                ${border}██${grey}██${border}██${white}██${skirtd}██${white}██████${grey}██${greyd}██${grey}██${haird}██${grey}██${border}████${reset}
-              ${border}██${grey}██${border}██${skirtd}██${skirt}██████${skirtd}██████${border}██${white}████${grey}██${border}██${reset}
-              ${border}████${skirtd}██${skirtb}██${skirt}██████${skirtb}██${skirtd}████${border}██${white}████${skirt}██${grey}██${border}██${reset}
-              ${border}██${skirtd}██${skirt}██████${skirtb}██${skirt}██████${skirtd}██${border}██${white}██${skirt}██${white}██${grey}██${border}██${reset}
-              ${border}██${grey}██${skirtb}██${skirt}████████████${skirtb}██${skirtd}██${grey}██${white}██${grey}██${skirtd}██${border}██${reset}
-                ${border}██${white}████████${skirt}██${skirtb}██${skirt}██████${skirtd}██████${grey}██${border}██${reset}
-                  ${border}██${shoe}██${shoed}██${border}██${white}████████████${grey}████${border}██${reset}
-                    ${border}████${reset}  ${border}████████${shoe}██${shoed}██${border}████${reset}
-                                  ${border}████${reset}
+              ${border}████████████████████${reset}
+          ${border}████${hair}████${hairb}██████████${hair}██████${border}████${reset}
+        ${border}██${hair}██${hairb}██████████████████████${hair}████${border}██${reset}
+      ${border}██${hair}██${hairb}████████████████████${haird}██${hairb}██${haird}██${hair}████${border}██${reset}
+    ${border}██${hair}██${hairb}████████████████████${haird}██${redd}██${haird}██${redd}██${haird}██${hair}████${border}██${reset}
+  ${border}██${hair}██${hairb}██████████████████████${haird}██${hair}██████${haird}██${hair}████${border}██${reset}
+  ${border}██${hair}██${hairw}██${hairb}████████████████████${grey}██${white}██████${grey}██${hair}████${haird}██${border}██${reset}
+${border}██${hair}██${hairb}████${hairw}██████${hairb}████████████████${grey}██████${hairb}████${hair}██${haird}██${border}██${reset}
+${border}██${hairb}████████████${hair}██${hairw}████████${hairb}██${hairw}████████${hairb}██████${hair}██${haird}██${border}██${reset}
+${border}██${hairb}████${hair}██${hairb}██████${haird}██${hairb}████████${hair}██${hairb}██████${hair}██${hairb}██████${hair}████${border}██${reset}
+${border}██${hairb}██${hair}██${haird}██${hairb}██${hair}██${hairb}██${haird}██${hair}██${hairb}██████${haird}██${hairb}████████${hair}██${hairb}████${hair}████${border}██${reset}
+${border}██${hair}██${haird}████${hairb}██${hair}██${border}████${haird}██${hair}██${hairb}██${hair}██${haird}████${hairb}██████${hair}██${hairb}████${hair}████${border}██${reset}
+  ${haird}██${border}██${haird}██${hairb}██${haird}██${grey}██${border}██${humand}██${haird}██${hair}██${haird}██${border}████████${hairb}████${hair}██${hairb}██${hair}████${border}██${reset}
+  ${border}██${reset}  ${border}██${hair}██${haird}██${grey}██${eyed}██${humanb}████${haird}██${humand}████${border}████${grey}██${border}██${hairb}██${hair}████${haird}██${hair}██${border}██${reset}
+      ${border}██${hair}██${haird}██${white}██${eye}██${humanb}██████${humand}██${humanb}██${eyed}██${white}████${band}██${bandd}██${haird}██${hair}██${haird}██${hair}██${border}██${reset}
+      ${border}██${hair}██${haird}██${humanb}██${eyed}██${humanb}██████████${eye}██${eyed}██${white}██${band}██${bandd}██${border}██${haird}████${hair}██${border}██${reset}
+      ${border}██${hair}██${haird}██${human}██${humanb}████████████${eyed}████${humanb}██${band}██${bandd}██${border}██${haird}██████${border}██${reset}
+        ${border}██${hair}██${haird}██${humanb}████████████████${human}██${grey}██${white}██${border}██${haird}██████${border}██${reset}
+        ${border}██${hair}██${haird}██${border}██${human}██████████████${hair}██${hairb}██${hair}██${border}██${haird}████${border}██${reset}
+        ${border}██${haird}████${human}██${grey}██${skirt}██${white}██${grey}████${greyd}██${humand}██${haird}██${hairb}██${haird}██${border}██${haird}████${border}██${reset}
+        ${border}██${haird}██${grey}██${border}██${white}██${skirt}██${white}██████${grey}██${greyd}██${haird}██${hair}██${border}████${haird}██${border}██${reset}
+          ${border}██${grey}██${border}██${white}██${skirtd}██${white}██████${grey}██${greyd}██${grey}██${haird}██${grey}██${border}████${reset}
+        ${border}██${grey}██${border}██${skirtd}██${skirt}██████${skirtd}██████${border}██${white}████${grey}██${border}██${reset}
+        ${border}████${skirtd}██${skirtb}██${skirt}██████${skirtb}██${skirtd}████${border}██${white}████${skirt}██${grey}██${border}██${reset}
+        ${border}██${skirtd}██${skirt}██████${skirtb}██${skirt}██████${skirtd}██${border}██${white}██${skirt}██${white}██${grey}██${border}██${reset}
+        ${border}██${grey}██${skirtb}██${skirt}████████████${skirtb}██${skirtd}██${grey}██${white}██${grey}██${skirtd}██${border}██${reset}
+          ${border}██${white}████████${skirt}██${skirtb}██${skirt}██████${skirtd}██████${grey}██${border}██${reset}
+            ${border}██${shoe}██${shoed}██${border}██${white}████████████${grey}████${border}██${reset}
+              ${border}████${reset}  ${border}████████${shoe}██${shoed}██${border}████${reset}
+                            ${border}████${reset}
 EOF
